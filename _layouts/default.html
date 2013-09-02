@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="ja">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>{{ page.title }}</title>
+<meta charset="UTF-8"/>
+<title>flower shop</title>
 </head>
-<body>
-{{ content }}
-</body>
+<frameset rows="30%,70%">
+	<frame src="index1.html" name="top">
+
+             <frameset cols="20%,60%,20%">
+	    <frame src="index2.html" name="bottom_left">
+
+                 <frameset rows="50%,50%">
+		<frame src="index3.html" name="bottom_middle_top">
+		<frame src="index4.html" name="bottom_middle_bottom">
+                 </frameset>
+
+                 <frame src="index5.html" name="bottom_right" >
+             </frameset> 
+</frameset>
 </html>
+
